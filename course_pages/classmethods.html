@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++: Class Methods</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="course_master">
+        <h2>The Course Master</h2>
+        <button><a href="/home.html">Home</a></button>
+    </nav>
+    <div class="page">
+        <nav id="mainnav">
+            <ul>
+                <button><a href="syntax.html">C++ Syntax</a></button>
+                <button><a href="output.html">C++ Output</a></button>
+                <button><a href="variable.html">C++ Variables</a></button>
+                <button><a href="user_input.html">C++ User Input</a></button>
+                <button><a href="datatypes.html">C++ Data Types</a></button>
+                <button><a href="operators.html">C++ Operators</a></button>
+                <button><a href="strings.html">C++ Strings</a></button>
+                <button><a href="math.html">C++ Math</a></button>
+                <button><a href="booleans.html">C++ Booleans</a></button>
+                <button><a href="conditions.html">C++ Conditions</a></button>
+                <button><a href="switch.html">C++ Switch</a></button>
+                <button><a href="loops.html">C++ Loops</a></button>
+                <button><a href="break_continue.html">C++ Break/Continue</a></button>
+                <button><a href="arrays.html">C++ Array</a></button>
+                <button><a href="structures.html">C++ Structures</a></button>
+                <button><a href="pointers.html">C++ Pointers</a></button>
+                <button><a href="function.html">C++ Functions</a></button>
+                <button><a href="functionparameter.html">C++ Function Parameters</a></button>
+                <button><a href="functionoverloading.html">C++ Function Overloading</a></button>
+                <button><a href="recursion.html">C++ Recursion</a></button>
+                <button><a href="oops.html">C++ OOP</a></button>
+                <button><a href="classesobjects.html">C++ Classes/Objects</a></button>
+                <button><a href="test.html">C++ Test</a></button>
+        </nav>
+        <div class="main_page">
+            <header>
+            <img src="classmethods.jpeg" alt="Class Methods">
+            <h1>Class Methods in C++</h1>
+            <br><br>
+            </header>
+            <section class="intro">
+                <ul>
+                        <span style="font-size:18px;">C++ class methods are user-defined functions that are used inside an instance of the class. A dot notation . is used before method names to distinguish them from the regular functions.</span>
+                    <br><br>
+                    <h2>A class method can be defined in two ways:</h2>
+                <li class="mains"><span>Inside the class definition:</span></li>
+                       <section class="code">class Person<br>
+                            {<br>
+                              string name;<br>
+                            public:<br>
+                              // Defines the method<br>
+                              void get_name()<br>
+                              {<br>
+                                return name;<br>
+                              }<br>
+                            }<br>
+                             int main()<br>
+                            {<br>
+                              Person robert;<br>
+                            // Calls the method<br>
+                              robert.get_name();<br>
+                            return 0;<br>
+                            }</section>
+                <li class="mains"><span>Outside the class definition</span></li>
+                <section class="code">class Person<br>
+                        {<br>
+                          string name;<br>
+                         public:<br>
+                          void get_name();<br>
+                        }<br>
+                         // Defines the method<br>
+                        void Person::get_name()<br>
+                        {<br>
+                          return name;<br>
+                        }<br>
+                         int main()<br>
+                        {<br>
+                          Person robert;<br>
+                         // Calls the method<br>
+                          robert.get_name();<br>
+                        return 0;<br>
+                        }<br></section>
+                </ul>
+            </section>
+            <section>
+                <button class="next"><a href="test.html">Tap to give the Test</a></button>
+            </section>
+            
+        </div>
+    </div>
+</body>
+</html>

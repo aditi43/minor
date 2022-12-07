@@ -1,0 +1,61 @@
+body {
+  background-color: grey;
+}
+.page {
+  background: black;
+  background-size: cover;
+  margin: 100px;
+  padding: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 10px 5px black;
+  border-radius: 10px;
+}
+p {
+  float: left;
+  color: white;
+  margin-right: 500px;
+}
+a {
+  margin: 10px;
+  color: white;
+  font-weight: bolder;
+}
+label {
+  color: white;
+}
+.input-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40%;
+}
+h2 {
+  color: white;
+}
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 10px;
+  box-shadow: 2px 5px white;
+}
+input {
+  margin: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  box-shadow: 2px 5px white;
+}
+button {
+  width: 20%;
+  height: 6%;
+  outline: none;
+  border: 0;
+  background: lightblue;
+  border-radius: 15px;
+  cursor: pointer;
+}

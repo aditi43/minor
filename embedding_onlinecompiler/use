@@ -1,0 +1,6 @@
+install node js and npm in your computer
+then go on the cmd and to that folder 
+type npm init
+install the dependencies like body-parser, copilex and express
+then type node NewProgram on cmd
+onpen the localhost:5500 on your browser the website shall open.

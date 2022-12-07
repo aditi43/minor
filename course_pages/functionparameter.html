@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++: Function Parameters</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="course_master">
+        <h2>The Course Master</h2>
+        <button><a href="/home.html">Home</a></button>
+    </nav>
+    <div class="page">
+        <nav id="mainnav">
+            <ul>
+                <button><a href="syntax.html">C++ Syntax</a></button>
+                <button><a href="output.html">C++ Output</a></button>
+                <button><a href="variable.html">C++ Variables</a></button>
+                <button><a href="user_input.html">C++ User Input</a></button>
+                <button><a href="datatypes.html">C++ Data Types</a></button>
+                <button><a href="operators.html">C++ Operators</a></button>
+                <button><a href="strings.html">C++ Strings</a></button>
+                <button><a href="math.html">C++ Math</a></button>
+                <button><a href="booleans.html">C++ Booleans</a></button>
+                <button><a href="conditions.html">C++ Conditions</a></button>
+                <button><a href="switch.html">C++ Switch</a></button>
+                <button><a href="loops.html">C++ Loops</a></button>
+                <button><a href="break_continue.html">C++ Break/Continue</a></button>
+                <button><a href="arrays.html">C++ Array</a></button>
+                <button><a href="structures.html">C++ Structures</a></button>
+                <button><a href="pointers.html">C++ Pointers</a></button>
+                <button><a href="functions.html">C++ Functions</a></button>
+                <button><a href="functionoverloading.html">C++ Function Overloading</a></button>
+                <button><a href="recursion.html">C++ Recursion</a></button>
+                <button><a href="oops.html">C++ OOP</a></button>
+                <button><a href="classesobjects.html">C++ Classes/Objects</a></button>
+                <button><a href="classmethods.html">C++ Class Methods</a></button>
+                <button><a href="test.html">C++ Test</a></button>
+        </nav>
+        <div class="main_page">
+            <header>
+                
+            <img src="functionparameter.png" alt="Function Parameters" width="600px" height="300px">
+            <h1>Function Parameters in C++</h1>
+            <br><br>
+            </header>
+            <section class="intro">
+                <ul>
+                <span style="font-size: 18px;"> A function parameter is a variable used in a function.They are always initialized with a value provided by the caller of the function.</span>
+                    <br><br>
+                    <h2>Basic syntax:</h2>
+                    <section class="code">return_type function_name( parameter list ) <br>
+                        {<br>
+                            body of the function<br>
+                         }</section>
+                         <br><br>
+                <li>Return Type − A function may return a value. </li>
+
+                        <li>Function Name − This is the actual name of the function. The function name and the parameter list together constitute the function signature.</li>
+                        
+                        <li>Parameters − A parameter is like a placeholder. </li>
+                        
+                        <li>Function Body − The function body contains a collection of statements that define what the function does.</li>
+                <br><br>
+                <h2>Types of function parameters:</h2>
+                <br>
+                <li>Default Parameters: These values are used by = symbol.</li>
+                <li>Multiple Parameters: Here inside a function we can use as many parameters as required.</li>
+                </ul>
+            </section>
+            <section>
+                <br><br>
+                <h2></h2>
+                <p></p>
+                <section class="code">
+                        #include <<x>iostream><br>
+                            int getValueFromUser()<br>
+                                {<br>
+                                     std::cout << "Enter an integer: ";<br>
+                                    int i{};<br>
+                                    std::cin >> i;<br>
+                                    return i;<br>
+                                }<br>
+                                int main()<br>
+                                {<br>
+                                    int num { getValueFromUser() 
+                                    };<br>
+                                std::cout << n << " doubled is: " << n* 2 << '\n';<br>
+                                 return 0;<br>
+                                }<br>
+                </section>
+
+                <ul>
+                    <h3>How are parameters passed:</h3>
+                    <li>Pass by value: Here the parameters are passed by giving value either from the user or directly by the programmer.</li>.
+                    <li>Pass by reference: Here the parameters are passed with reference with'&' symbol in front of the parameter. Here the value can be changed any number of times.</li>
+                    
+                    
+                </ul>
+                <h3></h3>
+            
+                <p></p>
+                <button class="next"><a href="functionparameter.html">Next</a></button>
+            </section>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+questions_count = questions.length;
+randomQuestions = questions[Math.floor(Math.random() * questions_count)];
+
+
+randomQuestions.splice(questions,1);

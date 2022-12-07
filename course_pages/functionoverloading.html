@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++: Function Overloading</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="course_master">
+        <h2>The Course Master</h2>
+        <button><a href="/home.html">Home</a></button>
+    </nav>
+    <div class="page">
+        <nav id="mainnav">
+            <ul>
+                <button><a href="syntax.html">C++ Syntax</a></button>
+                <button><a href="output.html">C++ Output</a></button>
+                <button><a href="variable.html">C++ Variables</a></button>
+                <button><a href="user_input.html">C++ User Input</a></button>
+                <button><a href="datatypes.html">C++ Data Types</a></button>
+                <button><a href="operators.html">C++ Operators</a></button>
+                <button><a href="strings.html">C++ Strings</a></button>
+                <button><a href="math.html">C++ Math</a></button>
+                <button><a href="booleans.html">C++ Booleans</a></button>
+                <button><a href="conditions.html">C++ Conditions</a></button>
+                <button><a href="switch.html">C++ Switch</a></button>
+                <button><a href="loops.html">C++ Loops</a></button>
+                <button><a href="break_continue.html">C++ Break/Continue</a></button>
+                <button><a href="arrays.html">C++ Array</a></button>
+                <button><a href="structures.html">C++ Structures</a></button>
+                <button><a href="pointers.html">C++ Pointers</a></button>
+                <button><a href="functions.html">C++ Functions</a></button>
+                <button><a href="functionparameter.html">C++ Function Parameters</a></button>
+                <button><a href="recursion.html">C++ Recursion</a></button>
+                <button><a href="oops.html">C++ OOP</a></button>
+                <button><a href="classesobjects.html">C++ Classes/Objects</a></button>
+                <button><a href="classmethods.html">C++ Class Methods</a></button>
+                <button><a href="test.html">C++ Test</a></button>
+        </nav>
+        <div class="main_page">
+            <header>
+                
+            <img src="functionoverloading.png" alt="Function Overloading" width="600px" height="300px">
+            <h1>Function Overloading in C++</h1>
+            <br><br>
+            </header>
+            <section class="intro">
+                <ul>
+                <span style="font-size: 18px;">A function overloading occurs when 2 or more functions have the same name but different signatures. But they have the different set of parameters.Functions with different return types and identical parameters can not be overloaded. It improves code readability and reusability.</span>
+                    <br><br>
+                    <h2>Function overloading must have:</h2>
+                <li>The same name as that of the other functions.</li>
+                <li>They have the different parameters.</li>
+                <br><br>
+                <h2>Rules for overloading:</h2>
+                <br>
+                <li> Functions must have different parameter types.</li>
+                <li>Functions must have different number of parameters.</li>
+                <li> Functions must have different combinations of arguments.</li>
+                </ul>
+            </section>
+            <section>
+                <section class="code" style="width: 550px">1. return_type funcion_name (data_type_1 variable1, data_type_2 variable2) {}<br>
+
+                       2. return_type_1 funcion_name (data_type_2 variable1) {}<br>
+                        
+                       3. return_type funcion_name (data_type_1 variable1, data_type_3 variable2) {}</section>
+
+                <ul>
+                    <li>The first overloaded function has different data types but the same function name as other functions.</li>.
+                    <li>The second overloaded function has 1 variable as above function and datatype of another variable which makes it overloaded.</li> <br>
+                    <li>The third and the last overloaded funtion has the same return type as the first but different data types and variables.</li>
+                </ul>
+                <button class="next"><a href="functionparameter.html">Next</a></button>
+            </section>
+            
+        </div>
+    </div>
+</body>
+</html>
